@@ -1,31 +1,51 @@
-# unity-ar-image-tracking-example
-An example of AR image tracking in Unity using AR Foundation. Using this application, an image is detected and tracked in an AR scene (in this case I'm using a Fist Puncher and Divisadero sticker as the tracked images). When the tracked image is detected, a 3D model is placed on top of the tracked image (in this case a simple hamburger 3D model from a Unity Asset Store free food model package). This project is built using Unity version 2021.3.16f1 and is designed to run on Android devices (not tested on iOS).
+AR Student Support App (Prototype)
 
-## Supported Platforms
-This project is designed for use on both iOS and Android, but it has only been tested on Android.
+📱 Project Overview
 
-## Running locally
-Use the following steps to run locally:
-1. Clone this repo
-2. Open repo folder using Unity 2021.3.16f1
+This project is a mobile Augmented Reality (AR) prototype developed using Unity to support disabled students during the UCLan Student Transition and Residential (STAR) programme. The application provides an accessible and engaging augmented environment to help students familiarise themselves with university life, encourage inclusion, and build confidence.
 
-## Development
-Setup steps to be able to include AR Foundation and build and deploy:
-- Install AR Foundation located in the Package Manager under AR Foundation
-- Install ARKit located in the Package Manager under AR Kit XR Plugin (required for iOS devices)
-- Install ARCore located in the Package Manager under AR Core XR Plugin (required for Android devices)
-- In Project Settings > XR Plug-in Management, set the Plug-in Provider on the Android tab to ARCore
-- Ensure AR scenes contain an AR Session and AR Session Origin
-- In Project Settings > Resolution and Presentation, disable Render Outside Safe Space
-- For Android, in Project Settings > Other Settings, set Minimum API Level to Android API level 24 or higher (this is required to build for Android)
-- For Android, in Project Settings > Other Settings, remove Vulkan from Graphics APIs (this is required to build for Android, need to uncheck Auto Graphics API first)
-- For Android, in Project Settings > Other Settings, Set Scripting Backend to IL2CPP
-- For Android, in Project Settings > Other Settings, Add ARM64 to Target Architectures
+The project serves as a proof of concept, demonstrating how AR technology can be used as a supportive and inclusive tool within an educational context.
 
-## Development Tools
-- Created using Unity 2021.3.16f1
-- Code edited using Visual Studio Code
+⸻
 
-## Credits
-Image tracking is based on this tutorial:
-https://www.youtube.com/watch?v=MdeuA0FITS0
+🎯 Project Goals
+	•	Support student transition into university life
+	•	Encourage engagement and inclusion through AR
+	•	Provide an accessible and user-friendly experience
+	•	Demonstrate effective use of AR technology
+	•	Apply Agile development practices in a team environment
+
+⸻
+
+🛠️ Technology Stack
+	•	Engine: Unity
+	•	Programming Language: C#
+	•	Platform: Mobile (Android / iOS)
+	•	Development Methodology: Agile (Scrum-inspired)
+
+⸻
+
+🚀 Features (Prototype)
+	•	Interactive AR elements over real-world environments
+	•	Simple and accessible user interactions
+	•	Designed with inclusivity and usability in mind
+	•	Modular structure allowing future expansion
+
+⸻
+
+🧪 Development Approach
+
+The project was developed as part of a team-based Agile software project. Work was organised into iterations, with regular reviews and reflections to evaluate progress, technical decisions, and teamwork.
+
+⸻
+
+📌 Project Status
+
+This application is a working prototype intended to demonstrate core functionality and design ideas. It is not a fully finished product but showcases the potential of AR for student support and engagement.
+
+⸻
+
+👥 Team Project
+
+Developed as part of the CO2410 – The Agile Professional module
+Academic Year: 2025/2026
