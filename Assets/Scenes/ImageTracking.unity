@@ -1683,7 +1683,7 @@ MonoBehaviour:
   mapImageObject: {fileID: 2123696032}
   mapImage: {fileID: 2123696034}
   receptionMap: {fileID: 21300000, guid: e69ea542ef53c405faf9df3f5122535e, type: 3}
-  libraryMap: {fileID: 21300000, guid: 6d30afec3faca409cb84907aa239c56e, type: 3}
+  libraryMap: {fileID: 21300000, guid: b4821e1f5688443dfbdc73862e039d4f, type: 3}
   studyRoomMap: {fileID: 21300000, guid: 83998203230164e3aa234d2c9b45e0d6, type: 3}
   bathroomMap: {fileID: 21300000, guid: 17f3c44f843b747d7aebb81b772f974d, type: 3}
   elevatorMap: {fileID: 21300000, guid: b3f2a8bb45e6f4e4b81eb039163d4084, type: 3}
